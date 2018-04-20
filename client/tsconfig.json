@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": true,
+    //混用JS
+    "allowSyntheticDefaultImports": true,
+    //AntDesign需要
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "static"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": true
+    //好好做翻译，多余的废话不要说
+  }
+}
